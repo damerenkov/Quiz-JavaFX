@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="350.0" prefWidth="550.0"
+            stylesheets="@bootstrap3.css"
+            xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.denismerenkov.quiz.controllers.GameFormController">
+   <children>
+      <TabPane fx:id="questionMenu" prefHeight="350.0" prefWidth="550.0" tabClosingPolicy="UNAVAILABLE" />
+   </children>
+</AnchorPane>
